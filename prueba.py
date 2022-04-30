@@ -1,7 +1,6 @@
 import sqlite3
 import random
-from traceback import print_tb
-from unicodedata import digit, numeric
+
 
 Link = sqlite3.connect("Resultados.Db")
 Mando = Link.cursor()
@@ -43,8 +42,8 @@ def Game():
     Pc = (random.choice([0,1,2]))
     Op_Pc = (Op[Pc])
     Op_Jg = (Op[Select])
-    print  (Op_Jg)
-    print  (Op_Pc)
+    print  ("Usted ha elegido: ",Op_Jg)
+    print  ("La maquina ha elegido: ",Op_Pc)
   
 
     def Result():
@@ -53,7 +52,7 @@ def Game():
 
             if Select == Pc: 
                 Save = (Resul[0])
-                print (Save)
+                print ("Ha sido un empate")
             elif Select == 0:
                 if Pc == 1:
                     print ("Gana: Computador")
