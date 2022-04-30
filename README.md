@@ -37,4 +37,6 @@ Preview del proyecto:
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/100322935/166086655-5b03683c-78c0-4680-b421-c3d92e3f8d10.png)
 
+Video del juego (Funcionalidad y codigo): 
 
+https://youtu.be/I4AvCyxP2O8
